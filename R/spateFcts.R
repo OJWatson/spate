@@ -973,7 +973,7 @@ spate.mcmc=function (y, coord = NULL, lengthx = NULL, lengthy = NULL, Sind = NUL
                                             i > 400 & i <= 2000) | (i%%50 == 0 & i > 2000 & i <= 
                                                                     10000) | (i%%100 == 0 & i > 10000 & i <= 20000) | 
                  (i%%500 == 0 & i > 20000) | i == Nmc)) 
-      message(".",,appendLF=FALSE)
+      message(".",appendLF=FALSE)
     if (i == 50 | (i%%100 == 0 & i <= 400) | (i%%200 == 0 & 
                                               i > 400 & i <= 2000) | (i%%500 == 0 & i > 2000 & 
                                                                       i <= 10000) | (i%%1000 == 0 & i > 10000 & i <= 20000) | 
